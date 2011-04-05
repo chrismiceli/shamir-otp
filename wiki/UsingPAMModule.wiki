@@ -1,4 +1,5 @@
 #summary A description of how to use the PAM Module.
+#labels Featured
 
 = Introduction =
 
