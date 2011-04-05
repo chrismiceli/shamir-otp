@@ -1,0 +1,5 @@
+A C library implementation of the shamir one-time password system as
+described in the master's thesis of Christopher Miceli at the University
+of New Orleans.
+
+Plase read the INSTALL for installation instructions.
