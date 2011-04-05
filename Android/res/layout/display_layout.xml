@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical"
+		android:layout_marginBottom="15sp">
+		<TextView android:id="@+id/profileNameTextView"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="TEST" android:layout_gravity="center" android:textSize="25sp" />
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="@string/provide_to_authenticator"
+			android:gravity="center" android:textSize="20sp" android:background="#B7B7B7"
+			android:textColor="#FFFFFF" android:layout_marginBottom="15sp" />
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:layout_marginBottom="15sp">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/share" />
+			<TextView android:id="@+id/shareTextView"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		</LinearLayout>
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:layout_marginBottom="15sp">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/update_material" />
+			<TextView android:id="@+id/forAuthenticatorUpdateMaterialTextView"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		</LinearLayout>
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:layout_marginBottom="15sp">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/E0" />
+			<TextView android:id="@+id/forAuthenticatorE0TextView"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		</LinearLayout>
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:layout_marginBottom="15sp">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/E1" />
+			<TextView android:id="@+id/forAuthenticatorE1TextView"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		</LinearLayout>
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:layout_marginBottom="15sp">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/r" />
+			<TextView android:id="@+id/forAuthenticatorRTextView"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		</LinearLayout>
+		<TextView android:text="@string/accept_from_authenticator"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:gravity="center" android:layout_marginBottom="15sp"
+			android:textSize="20sp" android:background="#B7B7B7"
+			android:textColor="#FFFFFF" />
+		<TableLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:stretchColumns="1"
+			android:layout_marginRight="5sp">
+			<TableRow>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="@string/update_material" />
+				<EditText android:id="@+id/fromAuthenticatorUpdateMaterialEditText"
+					android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			</TableRow>
+			<TableRow>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="@string/E0" />
+				<EditText android:id="@+id/fromAuthenticatorE0EditText"
+					android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			</TableRow>
+			<TableRow>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="@string/E1" />
+				<EditText android:id="@+id/fromAuthenticatorE1EditText"
+					android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			</TableRow>
+			<TableRow>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="@string/r" />
+				<EditText android:id="@+id/fromAuthenticatorREditText"
+					android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			</TableRow>
+		</TableLayout>
+		<Button android:id="@+id/FinishButton" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/finish"
+			android:layout_gravity="center" />
+	</LinearLayout>
+</ScrollView>

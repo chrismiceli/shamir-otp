@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Shamir OTP</string>
+	<string name="display_otp">Display OTP</string>
+	<string name="secret">Secret:</string>
+	<string name="share">Share:</string>
+	<string name="coefficient">Coefficient:</string>
+	<string name="p">p:</string>
+	<string name="q">q:</string>
+	<string name="g">g:</string>
+	<string name="h">h:</string>
+	<string name="E0">E0:</string>
+	<string name="E1">E1:</string>
+	<string name="r">r:</string>
+	<string name="profile_name">Profile Name:</string>
+	<string name="update_material">Update:</string>
+	<string name="format_error_title">Format Error!</string>
+	<string name="format_error_message">One of the fields that is supposed to be a number
+		is not. Check for spaces and letters</string>
+	<string name="provide_to_authenticator">-Present to the authenticator-</string>
+	<string name="accept_from_authenticator">-Enter from the authenticator-</string>
+	<string name="finish">Finish</string>
+	<string name="ok">Ok</string>
+	<string name="new_profile">New Profile</string>
+	<string name="about">About</string>
+	<string name="about_title">About</string>
+	<string name="about_message">Chris Miceli</string>
+	<string name="configuration">Configuration</string>
+	<string name="verification_error_title">Verification Error!</string>
+	<string name="verification_error_message">There has been an error verifying the update
+		material! Please try again.</string>
+</resources>
