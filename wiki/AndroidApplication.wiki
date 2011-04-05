@@ -5,8 +5,6 @@
 
 An Android application is part of the Shamir OTP project that enables any Android powered device to act as a hardware token that generates passwords. The Application must first be initialized with the profile of the user. After being initialized, the application can begin to produce useful passwords.
 
-https://docs.google.com/uc?id=0B-C2C7xM_Tt-MGY2ZWRmOGQtOGMzMi00YzFlLTllZGMtN2Y0MDU0ZjAwNmVm
-
 = Initialization =
 The first time the application is launched, a configuration page will be displayed that allows you to enter in the data that is provided by the profile. The information can be retrieved from the profile easily by using the `shamir-print-profile` command-line tool.
 
