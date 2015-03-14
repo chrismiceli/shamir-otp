@@ -1,0 +1,1 @@
+An area for code related to implementing a one-time password algorithm that is based upon secret sharing techniques. This is the code that was produced as a result of a master's thesis in computer science at the University of New Orleans.
